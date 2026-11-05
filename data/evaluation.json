@@ -1,0 +1,106 @@
+[
+  {
+    "question": "How many annual leave days do full-time Acme employees receive?",
+    "user": "acme_employee",
+    "expected_doc_ids": [
+      "acme_public_leave"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "How far in advance should planned leave be submitted at Acme?",
+    "user": "acme_employee",
+    "expected_doc_ids": [
+      "acme_public_leave"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "What are Acme's remote work rules?",
+    "user": "acme_employee",
+    "expected_doc_ids": [
+      "acme_internal_remote"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "List the salaries in Acme's HR salary register.",
+    "user": "acme_employee",
+    "expected_doc_ids": [],
+    "forbidden_doc_ids": [
+      "acme_conf_salary"
+    ]
+  },
+  {
+    "question": "List the salaries in Acme's HR salary register.",
+    "user": "acme_hr",
+    "expected_doc_ids": [
+      "acme_conf_salary"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "What is Employee A's joining bonus?",
+    "user": "acme_employee",
+    "expected_doc_ids": [
+      "acme_user_offer"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "What is the BlueWave support schedule?",
+    "user": "blue_employee",
+    "expected_doc_ids": [
+      "blue_public_support"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "What security steps must BlueWave staff follow?",
+    "user": "blue_employee",
+    "expected_doc_ids": [
+      "blue_internal_security"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "Summarize the BlueWave security incident report.",
+    "user": "blue_employee",
+    "expected_doc_ids": [],
+    "forbidden_doc_ids": [
+      "blue_conf_incident"
+    ]
+  },
+  {
+    "question": "What is the Greenfield office timing?",
+    "user": "green_employee",
+    "expected_doc_ids": [
+      "green_public_hours"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "How soon must Greenfield expense claims be submitted?",
+    "user": "green_employee",
+    "expected_doc_ids": [
+      "green_internal_expenses"
+    ],
+    "forbidden_doc_ids": []
+  },
+  {
+    "question": "What is the Greenfield technology budget?",
+    "user": "green_employee",
+    "expected_doc_ids": [],
+    "forbidden_doc_ids": [
+      "green_conf_finance"
+    ]
+  },
+  {
+    "question": "What is the Greenfield technology budget?",
+    "user": "green_admin",
+    "expected_doc_ids": [
+      "green_conf_finance"
+    ],
+    "forbidden_doc_ids": []
+  }
+]

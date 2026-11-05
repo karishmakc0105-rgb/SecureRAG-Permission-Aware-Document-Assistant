@@ -1,0 +1,128 @@
+[
+  {
+    "doc_id": "acme_public_leave",
+    "tenant_id": "acme",
+    "title": "Acme Employee Leave Policy",
+    "text": "Acme Technologies provides annual leave of 18 working days per calendar year to full-time employees. Employees should submit planned leave requests at least five working days in advance through the HR portal. Sick leave may be reported on the day of absence. Unused annual leave can be carried forward up to five days, subject to manager approval.",
+    "classification": "public",
+    "allowed_roles": [
+      "employee",
+      "hr",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "acme_internal_remote",
+    "tenant_id": "acme",
+    "title": "Acme Remote Work Guidelines",
+    "text": "Acme employees may work remotely up to two days per week with manager approval. Teams must keep their calendars updated and attend scheduled team meetings. Company devices should be used for work. Employees must not share internal project documents with people outside Acme.",
+    "classification": "internal",
+    "allowed_roles": [
+      "employee",
+      "hr",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "acme_conf_salary",
+    "tenant_id": "acme",
+    "title": "Acme HR Salary Register",
+    "text": "CONFIDENTIAL HR RECORD. Acme salary register: Employee A, Data Analyst, annual salary INR 720000. Employee B, Software Engineer, annual salary INR 960000. Employee C, HR Executive, annual salary INR 600000. This document is restricted to HR and administrators.",
+    "classification": "confidential",
+    "allowed_roles": [
+      "hr",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "acme_user_offer",
+    "tenant_id": "acme",
+    "title": "Acme Individual Offer Letter",
+    "text": "PRIVATE EMPLOYEE RECORD. Employee A has an annual compensation of INR 720000 and a joining bonus of INR 25000. Access is limited to the employee named Employee A and authorized HR staff.",
+    "classification": "confidential",
+    "allowed_roles": [
+      "hr",
+      "admin"
+    ],
+    "allowed_users": [
+      "acme_employee_a"
+    ]
+  },
+  {
+    "doc_id": "blue_public_support",
+    "tenant_id": "bluewave",
+    "title": "BlueWave Customer Support Policy",
+    "text": "BlueWave customers can contact support from Monday to Friday, 9 AM to 6 PM. Standard support requests receive an initial response within two business days. Customers should include their account reference and a clear description of the issue.",
+    "classification": "public",
+    "allowed_roles": [
+      "employee",
+      "support",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "blue_internal_security",
+    "tenant_id": "bluewave",
+    "title": "BlueWave Internal Security Rules",
+    "text": "BlueWave staff must enable multi-factor authentication on company accounts, lock their screens when away from their desks, and report suspected phishing emails to the security team. Customer data must only be accessed for an approved business purpose.",
+    "classification": "internal",
+    "allowed_roles": [
+      "employee",
+      "support",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "blue_conf_incident",
+    "tenant_id": "bluewave",
+    "title": "BlueWave Security Incident Report",
+    "text": "CONFIDENTIAL SECURITY REPORT. A simulated incident on 12 August involved an exposed test API key. The key was revoked, affected test services were rotated, and the security team completed a review. Access is restricted to administrators and security staff.",
+    "classification": "confidential",
+    "allowed_roles": [
+      "admin",
+      "security"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "green_public_hours",
+    "tenant_id": "greenfield",
+    "title": "Greenfield Office Hours",
+    "text": "Greenfield Analytics office hours are 9:30 AM to 5:30 PM, Monday through Friday. The reception desk is closed on public holidays. Visitors should register at reception and carry a valid photo identification document.",
+    "classification": "public",
+    "allowed_roles": [
+      "employee",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "green_internal_expenses",
+    "tenant_id": "greenfield",
+    "title": "Greenfield Expense Reimbursement",
+    "text": "Greenfield employees can submit eligible business expense claims within 30 days of the transaction. Receipts are required for claims above INR 500. Managers review claims before Finance processes reimbursement.",
+    "classification": "internal",
+    "allowed_roles": [
+      "employee",
+      "admin"
+    ],
+    "allowed_users": []
+  },
+  {
+    "doc_id": "green_conf_finance",
+    "tenant_id": "greenfield",
+    "title": "Greenfield Confidential Finance Plan",
+    "text": "CONFIDENTIAL FINANCE NOTE. The fictional Greenfield quarterly technology budget is INR 1500000. The planned allocation is 40 percent infrastructure, 35 percent software, and 25 percent training. Access is restricted to administrators and finance staff.",
+    "classification": "confidential",
+    "allowed_roles": [
+      "admin",
+      "finance"
+    ],
+    "allowed_users": []
+  }
+]

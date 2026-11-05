@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local databases and vector storage
+storage/
+
+# Secrets and environment variables
+.env
+.env.*
+
+# Generated evaluation output
+evaluation_results.csv
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+data/users.json
+# Exclude password backups
+users_backup.json
+data/users_backup*.json
+evaluation_credentials.json
